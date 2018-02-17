@@ -20,6 +20,7 @@ body {
 **********************************************************************/
 .navbar {
   border-width: 1px 0;
+  margin-bottom:0px;
   -webkit-border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0;
@@ -28,6 +29,7 @@ body {
   background-clip: padding-box;
   width: 100%;
 }
+
 .navbar.stick {
   position: fixed;
   top: 0;
@@ -229,6 +231,10 @@ a:hover {
   background-size: cover;
   color: #7C7C7C;
   padding: 30px 0 35px 0;
+  position: relative;
+}
+#head #logo{
+  padding-bottom: 4em;
 }
 #head img.img-circle {
   display: block;
@@ -241,12 +247,33 @@ a:hover {
 #head .title {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
+  text-transform: uppercase;
   font-size: 3.0625rem;
 }
 #head .title a {
   text-decoration: none;
   color: #333333;
 }
+#head .prorities {
+  color:white;
+  margin-top:2em;
+}
+#head .prorities .icon {
+  text-align: center;
+}
+#head .prorities .icon .fa {
+  width:50pt;
+  height:50pt;
+  border-radius:50pt;
+  border-width: 4pt;
+  text-align: center;
+  border-style: solid;
+  border-color:linear-gradient(to bottom, #40b3ff, #09f);
+  padding-top:5pt;
+  font-size: 30pt;
+  display:inline-block;
+}
+
 #head .tagline {
   display: block;
   font-size: 14px;
@@ -272,6 +299,15 @@ a:hover {
   font-size: 16px;
   font-size: 1rem;
   margin: 15px 0 0;
+}
+#head .prorities {
+  background: rgba(255,0,0,0.3);
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:1em;
 }
 /*********************************************************************
 

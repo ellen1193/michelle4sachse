@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Michelle For Sasche"
-theme = "hugo-initio-master"
+theme = "michelle-initio"
 
 
 [params]
@@ -9,6 +9,7 @@ theme = "hugo-initio-master"
     description = "A mystery person"
     email = "anthony.russel42@example.com"
     phone = "+234 23 9873237"
+    slogan = "Some kind of campaign slogan"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2017
     background = ""
@@ -30,6 +31,25 @@ theme = "hugo-initio-master"
     name = "home"
     url = "/"
     weight = 1
+[[menu.main]]
+    name = "contact"
+    url = "/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "Meet Michelle"
+    url = "/meet/"
+    weight = 4
+[[menu.main]]
+    name = "get involved"
+    url = "/involved/"
+    weight = 5
+[[menu.main]]
+    name = "donate"
+    url = "/post/"
+    weight = 7
+
+
 [[menu.main]]
     name = "blog"
     url = "/post/"
