@@ -2,6 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Michelle For Sasche"
 theme = "michelle-initio"
+publishDir = "docs"
+
 
 
 [params]
