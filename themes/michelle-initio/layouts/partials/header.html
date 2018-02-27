@@ -37,6 +37,7 @@
 	<header id="header">
 
 		{{ partial "menu.html" . }}
+		{{ if .IsHome }}
 		<div id="head" class="parallax" parallax-speed="2">
 			<h1 id="logo" class="text-center">
 				<!--img class="img-circle" src="{{ .Site.BaseURL }}images/guy.jpg" alt=""-->
@@ -81,6 +82,7 @@
 				</div>
 			</div>
 		</div>
+		{{ end }}
 
 
 	</header>

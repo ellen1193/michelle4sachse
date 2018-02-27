@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "Contact"
 date: 2018-02-19T09:23:07-08:00
-draft: true
+draft: false
 ---
 
 
