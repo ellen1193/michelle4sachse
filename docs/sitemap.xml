@@ -3,12 +3,60 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/news/test/</loc>
+    <lastmod>2018-03-04T21:14:49-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/blog/</loc>
+    <lastmod>2018-02-26T22:55:31-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/involved/</loc>
+    <lastmod>2018-02-26T22:55:19-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/donate/</loc>
+    <lastmod>2018-02-26T22:55:12-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/blog/180226/</loc>
+    <lastmod>2018-02-26T22:54:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/meet/</loc>
+    <lastmod>2018-02-26T22:54:36-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/contact/</loc>
+    <lastmod>2018-02-19T09:23:07-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/blog/</loc>
+    <lastmod>2018-02-26T22:54:53-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ellen1193.github.io/michelle4sachse/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ellen1193.github.io/michelle4sachse/</loc>
+    <lastmod>2018-03-04T21:14:49-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ellen1193.github.io/michelle4sachse/news/</loc>
+    <lastmod>2018-03-04T21:14:49-08:00</lastmod>
     <priority>0</priority>
   </url>
   

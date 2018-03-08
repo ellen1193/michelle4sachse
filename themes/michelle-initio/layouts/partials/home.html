@@ -1,9 +1,36 @@
 <main id="main">
 
 	<div class="container">
+		<br/>
+		<div class="row">
+			<div class="col-md-8">
+				Latest Updates
+				<hr/> 
+				{{ range first 10 (where .Data.Pages "Section" "news" )  }}
+				<article>
+					<!-- this <div> includes the title summary -->
+					<div>
+						<h2>
+							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+						</h2>
+						{{ .Summary }}
+					</div>
+					{{ if .Truncated }}
+					<!-- This <div> includes a read more link, but only if the summary is truncated... -->
+					<div>
+						<a href="{{ .RelPermalink }}">Read More…</a>
+					</div>
+					{{ end }}
+				</article>
+				{{ end }}
+			</div>
+			<div class="col-md-4">
+				Videos
+				<hr/>
+			</div>
+		</div>
 
-       The power 
-       
-	</div>	<!-- /container -->
+	</div>
+	<!-- /container -->
 
 </main>
