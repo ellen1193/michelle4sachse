@@ -1,4 +1,4 @@
-baseURL = "www.michelle4sachse.com"
+baseURL = "www.michelle4sachse.com/"
 languageCode = "en-us"
 title = "Michelle For Sasche"
 theme = "michelle-initio"
@@ -17,6 +17,7 @@ publishDir = "docs"
     background = ""
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
+    staticDir = ["static"]
 
     showSubheader = true
     showServices = true
