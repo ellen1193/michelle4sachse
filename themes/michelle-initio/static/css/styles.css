@@ -298,10 +298,8 @@ a:hover {
 
 #head .tagline {
   display: block;
-  font-size: 14px;
-  font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7c7c7c;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   margin: 5px 0 0;
 }
 #head .tagline b {
@@ -318,9 +316,9 @@ a:hover {
   font-size: 3.0625rem;
 }*/
 .home #head .tagline {
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 20pt;  
   margin: 15px 0 0;
+  color:#eee;
 }
 #head .prorities {
   background: rgba(128, 41, 143, 0.75);
