@@ -1,6 +1,6 @@
-baseURL = "http://michelle4sachse.com"
+baseURL = "http://michelle4sachse.com/"
 languageCode = "en-us"
-title = "Michelle For Sasche"
+title = "Michelle For Sachse"
 theme = "michelle-initio"
 publishDir = "docs"
 
@@ -11,7 +11,7 @@ publishDir = "docs"
     description = "A mystery person"
     email = "anthony.russel42@example.com"
     phone = "+234 23 9873237"
-    slogan = "Some kind of campaign slogan"
+    slogan = "A New Voice for Sachse"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2018
     background = ""

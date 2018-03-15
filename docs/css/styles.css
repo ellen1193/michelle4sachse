@@ -20,7 +20,7 @@ body {
 **********************************************************************/
 .navbar {
   border-width: 1px 0;
-  margin-bottom:0px;
+  margin-bottom: 0px;
   -webkit-border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0;
@@ -34,7 +34,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: .85;
+  opacity: 0.85;
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
@@ -227,23 +227,23 @@ a:hover {
 
 **********************************************************************/
 #head {
-  color: #7C7C7C;
+  color: #7c7c7c;
   padding: 30px 0 35px 0;
   position: relative;
 }
-#head:before{
-  content:"";
+#head:before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
-  background: #f4f4f4 url(/images/header.jpg) center bottom;  
+  background: #f4f4f4 url(/images/header.jpg) center bottom;
   background-size: cover;
-  color: #7C7C7C;  
+  color: #7c7c7c;
 }
-#head #logo{
+#head #logo {
   padding-bottom: 4em;
 }
 #head img.img-circle {
@@ -258,6 +258,9 @@ a:hover {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
   text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
   font-size: 3.0625rem;
 }
 #head .title a {
@@ -265,23 +268,23 @@ a:hover {
   color: #333333;
 }
 #head .prorities {
-  color:white;
-  margin-top:2em;
+  color: white;
+  margin-top: 2em;
 }
 #head .prorities .icon {
   text-align: center;
 }
 #head .prorities .icon .fa {
-  width:50pt;
-  height:50pt;
-  border-radius:50pt;
+  width: 50pt;
+  height: 50pt;
+  border-radius: 50pt;
   border-width: 4pt;
   text-align: center;
   border-style: solid;
-  border-color:linear-gradient(to bottom, #40b3ff, #09f);
-  padding-top:5pt;
+  border-color: linear-gradient(to bottom, #40b3ff, #09f);
+  padding-top: 5pt;
   font-size: 30pt;
-  display:inline-block;
+  display: inline-block;
 }
 
 #head .tagline {
@@ -289,14 +292,14 @@ a:hover {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7C7C7C;
+  color: #7c7c7c;
   margin: 5px 0 0;
 }
 #head .tagline b {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5E5E5E;
+  color: #5e5e5e;
 }
 .home #head {
   padding: 90px 0;
@@ -313,23 +316,23 @@ a:hover {
 #head .prorities {
   background: rgba(87, 1, 128, 0.5);
   position: absolute;
-  bottom:0;
-  left:0;
-  right:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
-  padding:1em;
+  padding: 1em;
 }
 #head .prorities:before {
   content: "";
   position: absolute;
-  background: #f4f4f4 url(/images/header.jpg) bottom; 
-  
-  left: 0;  
+  background: #f4f4f4 url(/images/header.jpg) bottom;
+
+  left: 0;
   bottom: 0;
   z-index: -1;
-  
+
   display: block;
-  background-size:cover;
+  background-size: cover;
   width: 100%;
   height: 100%;
   -webkit-filter: blur(4px);
@@ -387,7 +390,7 @@ img {
 }
 .btn-action {
   font-weight: bold;
-  background: transparent!important;
+  background: transparent !important;
   border: 1px solid #333;
   text-shadow: none;
 }
@@ -603,7 +606,7 @@ img {
   content: "";
   position: absolute;
   height: 4px;
-  top: .53em;
+  top: 0.53em;
   width: 400%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
@@ -882,13 +885,14 @@ footer.entry-meta .meta-in {
 
 **********************************************************************/
 .st-custom-button[data-network] {
-   background-color: #fff;
-   display: inline-block;
-   padding: 0px 5px 20px 5px;
-   cursor: pointer;
-   font-weight: bold;
-   color: #666666;
-   &:hover, &:focus {
-      color: #004488;
-   }
+  background-color: #fff;
+  display: inline-block;
+  padding: 0px 5px 20px 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #666666;
+  &:hover,
+  &:focus {
+    color: #004488;
+  }
 }
