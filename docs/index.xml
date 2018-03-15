@@ -2,75 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michelle For Sasche</title>
-    <link>michelle4sachse.com/</link>
+    <link>http://michelle4sachse.com/</link>
     <description>Recent content on Michelle For Sasche</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Mar 2018 21:14:49 -0800</lastBuildDate>
     
-	<atom:link href="michelle4sachse.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://michelle4sachse.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test</title>
-      <link>michelle4sachse.com/news/test/</link>
+      <link>http://michelle4sachse.com/news/test/</link>
       <pubDate>Sun, 04 Mar 2018 21:14:49 -0800</pubDate>
       
-      <guid>michelle4sachse.com/news/test/</guid>
+      <guid>http://michelle4sachse.com/news/test/</guid>
       <description>I created the website!</description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>michelle4sachse.com/blog/</link>
+      <link>http://michelle4sachse.com/blog/</link>
       <pubDate>Mon, 26 Feb 2018 22:55:31 -0800</pubDate>
       
-      <guid>michelle4sachse.com/blog/</guid>
+      <guid>http://michelle4sachse.com/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Involved</title>
-      <link>michelle4sachse.com/involved/</link>
+      <link>http://michelle4sachse.com/involved/</link>
       <pubDate>Mon, 26 Feb 2018 22:55:19 -0800</pubDate>
       
-      <guid>michelle4sachse.com/involved/</guid>
+      <guid>http://michelle4sachse.com/involved/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Donate</title>
-      <link>michelle4sachse.com/donate/</link>
+      <link>http://michelle4sachse.com/donate/</link>
       <pubDate>Mon, 26 Feb 2018 22:55:12 -0800</pubDate>
       
-      <guid>michelle4sachse.com/donate/</guid>
+      <guid>http://michelle4sachse.com/donate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>180226</title>
-      <link>michelle4sachse.com/blog/180226/</link>
+      <link>http://michelle4sachse.com/blog/180226/</link>
       <pubDate>Mon, 26 Feb 2018 22:54:53 -0800</pubDate>
       
-      <guid>michelle4sachse.com/blog/180226/</guid>
+      <guid>http://michelle4sachse.com/blog/180226/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meet</title>
-      <link>michelle4sachse.com/meet/</link>
+      <link>http://michelle4sachse.com/meet/</link>
       <pubDate>Mon, 26 Feb 2018 22:54:36 -0800</pubDate>
       
-      <guid>michelle4sachse.com/meet/</guid>
-      <description></description>
+      <guid>http://michelle4sachse.com/meet/</guid>
+      <description>Michelle and her family have called Sachse home since 1999. Prior to running for city council, Michelle served as a member and chairwoman of Sachse Zoning Board of Adjustments. She currently serves as a member of the Board of Directors of the Sachse Economic Development Corporation. Michelle has also served in the Collin County Medical Reserve Corps for several years.
+Michelle and her husband, Evan, are the parents of four children - one a current student and three graduates of Wylie High School.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>michelle4sachse.com/contact/</link>
+      <link>http://michelle4sachse.com/contact/</link>
       <pubDate>Mon, 19 Feb 2018 09:23:07 -0800</pubDate>
       
-      <guid>michelle4sachse.com/contact/</guid>
+      <guid>http://michelle4sachse.com/contact/</guid>
       <description>Hello and welcome to my site!
 A Bit About Me I like alpacas and I&amp;rsquo;m a fan of static sites.</description>
     </item>

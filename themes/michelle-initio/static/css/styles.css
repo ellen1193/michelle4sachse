@@ -239,7 +239,7 @@ a:hover {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background: #f4f4f4 url(/images/EMP_1793.jpg) center bottom;  
+  background: #f4f4f4 url(/images/header.jpg) center bottom;  
   background-size: cover;
   color: #7C7C7C;  
 }
@@ -322,7 +322,7 @@ a:hover {
 #head .prorities:before {
   content: "";
   position: absolute;
-  background: #f4f4f4 url(/images/EMP_1793.jpg) bottom; 
+  background: #f4f4f4 url(/images/header.jpg) bottom; 
   
   left: 0;  
   bottom: 0;
