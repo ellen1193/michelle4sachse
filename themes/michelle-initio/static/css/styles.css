@@ -283,7 +283,7 @@ a:hover {
 #head .prorities .icon {
   text-align: center;
 }
-#head .prorities .icon .fa {
+#head .prorities .icon > * {
   width: 50pt;
   height: 50pt;
   border-radius: 50pt;
@@ -291,8 +291,7 @@ a:hover {
   text-align: center;
   border-style: solid;
   border-color: linear-gradient(to bottom, #40b3ff, #09f);
-  padding-top: 5pt;
-  font-size: 30pt;
+  padding: 5pt;  
   display: inline-block;
 }
 
@@ -498,6 +497,7 @@ img {
   text-transform: uppercase;
   margin: 0 2em;
   display: block;
+  font-weight:bold;
   text-indent: 0;
 }
 .thumbnail .cover {
