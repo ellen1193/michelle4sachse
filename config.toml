@@ -40,8 +40,8 @@ publishDir = "docs"
     weight = 3
 
 [[menu.main]]
-    name = "Meet Michelle"
-    url = "/meet/"
+    name = "About"
+    url = "/about/"
     weight = 4
 [[menu.main]]
     name = "get involved"
