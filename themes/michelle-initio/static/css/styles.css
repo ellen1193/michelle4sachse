@@ -227,11 +227,21 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url(/images/EMP_1793.jpg) bottom center;
-  background-size: cover;
   color: #7C7C7C;
   padding: 30px 0 35px 0;
   position: relative;
+}
+#head:before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #f4f4f4 url(/images/EMP_1793.jpg) center bottom;  
+  background-size: cover;
+  color: #7C7C7C;  
 }
 #head #logo{
   padding-bottom: 4em;
@@ -301,13 +311,32 @@ a:hover {
   margin: 15px 0 0;
 }
 #head .prorities {
-  background: rgba(255,0,0,0.3);
+  background: rgba(87, 1, 128, 0.5);
   position: absolute;
   bottom:0;
   left:0;
   right:0;
   text-align: center;
   padding:1em;
+}
+#head .prorities:before {
+  content: "";
+  position: absolute;
+  background: #f4f4f4 url(/images/EMP_1793.jpg) bottom; 
+  
+  left: 0;  
+  bottom: 0;
+  z-index: -1;
+  
+  display: block;
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
 }
 /*********************************************************************
 

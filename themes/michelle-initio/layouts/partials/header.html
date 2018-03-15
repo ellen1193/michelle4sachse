@@ -36,9 +36,8 @@
 
 	<header id="header">
 
-		{{ partial "menu.html" . }}
-		{{ if .IsHome }}
-		<div id="head" class="parallax" parallax-speed="2">
+		{{ partial "menu.html" . }} {{ if .IsHome }}
+		<div id="head" class="parallax" parallax-speed="0">
 			<h1 id="logo" class="text-center">
 				<!--img class="img-circle" src="{{ .Site.BaseURL }}images/guy.jpg" alt=""-->
 				<div class="container">
@@ -60,25 +59,27 @@
 
 			</h1>
 			<div class="prorities">
-				<div class="row">
-					<button class="btn col-md-2">The right prorities
-						<i class="fa fa-arrow-right"></i>
-					</button>
-					<div class="icon col-md-2">
-						<i class="fa fa-trophy fa"></i>
-						<br/>Balancing the budget</div>
-					<div class="icon col-md-2">
-						<i class="fa fa-trophy fa"></i>
-						<br/>Balancing the budget</div>
-					<div class="icon col-md-2">
-						<i class="fa fa-trophy fa"></i>
-						<br/>Balancing the budget</div>
-					<div class="icon col-md-2">
-						<i class="fa fa-trophy fa"></i>
-						<br/>Balancing the budget</div>
-					<div class="icon col-md-2">
-						<i class="fa fa-trophy fa"></i>
-						<br/>Balancing the budget</div>
+				<div class="container">
+					<div class="row">
+						<div class="icon col-md-2">
+							<i class="fa fa-trophy fa"></i>
+							<br/>Balancing the budget</div>
+						<div class="icon col-md-2">
+							<i class="fa fa-trophy fa"></i>
+							<br/>Balancing the budget</div>
+						<div class="icon col-md-2">
+							<i class="fa fa-trophy fa"></i>
+							<br/>Balancing the budget</div>
+						<div class="icon col-md-2">
+							<i class="fa fa-trophy fa"></i>
+							<br/>Balancing the budget</div>
+						<div class="icon col-md-2">
+							<i class="fa fa-trophy fa"></i>
+							<br/>Balancing the budget</div>
+						<div class="icon col-md-2">
+							<i class="fa fa-trophy fa"></i>
+							<br/>Balancing the budget</div>
+					</div>
 				</div>
 			</div>
 		</div>
