@@ -1,4 +1,4 @@
-baseURL = "www.michelle4sachse.com/"
+baseURL = "michelle4sachse.com"
 languageCode = "en-us"
 title = "Michelle For Sasche"
 theme = "michelle-initio"
@@ -15,7 +15,7 @@ publishDir = "docs"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2018
     background = ""
-    favicon = "images/gt_favicon.png"
+    favicon = "images/favicon.ico"
     DateForm = "January 2, 2006"
     staticDir = ["static"]
 
