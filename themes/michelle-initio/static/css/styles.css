@@ -262,11 +262,16 @@ a:hover {
 #head .title {
   font-family: "Source Sans Pro", Alice, Georgia, serif;
   font-weight: bold;
-  font-size: 88px;
+  font-size: 88pt;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   padding: 12px;
+}
+@media only screen and (max-width: 400px) {
+  #head .title {
+    font-size: 55pt;
+  }
 }
 
 #head .title-box {
@@ -291,7 +296,7 @@ a:hover {
   text-align: center;
   border-style: solid;
   border-color: linear-gradient(to bottom, #40b3ff, #09f);
-  padding: 5pt;  
+  padding: 5pt;
   display: inline-block;
 }
 
@@ -315,9 +320,9 @@ a:hover {
   font-size: 3.0625rem;
 }*/
 .home #head .tagline {
-  font-size: 20pt;  
+  font-size: 20pt;
   margin: 15px 0 0;
-  color:#eee;
+  color: #fff;
 }
 #head .prorities {
   background: rgba(128, 41, 143, 0.75);
@@ -497,7 +502,7 @@ img {
   text-transform: uppercase;
   margin: 0 2em;
   display: block;
-  font-weight:bold;
+  font-weight: bold;
   text-indent: 0;
 }
 .thumbnail .cover {
