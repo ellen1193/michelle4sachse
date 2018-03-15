@@ -66,25 +66,25 @@ publishDir = "docs"
     custom = true
 
 [params.google.analytics]
-    trackerID = "GA-000000000-0"
+    trackerID = "UA-115813132-1"
 
 [[params.social]]
 	title = "facebook"
-	url = "https://www.facebook.com/nickname"
+	url = "https://www.facebook.com/michelle4sachse"
     icon = "fa-facebook-square"
     footer = true
     sharethis = true
     network = "facebook"
 [[params.social]]
 	title = "twitter"
-	url = "https://twitter.com/nickname"
+	url = "https://twitter.com/michelle4sachse"
     icon = "fa-twitter-square"
     footer = true
     sharethis = true
     network = "twitter"
 [[params.social]]
 	title = "instagram"
-	url = "https://www.instagram.com/nickname"
+	url = "https://www.instagram.com/michelle4sachse"
     icon = "fa-instagram"
     footer = true
     sharethis = false
