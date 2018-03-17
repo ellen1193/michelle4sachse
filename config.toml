@@ -9,7 +9,7 @@ publishDir = "docs"
 [params]
     name = "Michelle Howarth"
     description = "A mystery person"
-    email = "anthony.russel42@example.com"
+    email = "michelle4sachse@gmail.com"
     phone = "+234 23 9873237"
     slogan = "A New Voice for Sachse"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
@@ -75,13 +75,7 @@ publishDir = "docs"
     footer = true
     sharethis = true
     network = "facebook"
-[[params.social]]
-	title = "twitter"
-	url = "https://twitter.com/michelle4sachse"
-    icon = "fa-twitter-square"
-    footer = true
-    sharethis = true
-    network = "twitter"
+
 [[params.social]]
 	title = "instagram"
 	url = "https://www.instagram.com/michelle4sachse"
@@ -114,7 +108,7 @@ publishDir = "docs"
 	title = "github"
 	url = "https://github.com/nickname"
     icon = "fa-github"
-    footer = true
+    footer = false
     sharethis = false
     network = ""
 [[params.social]]
