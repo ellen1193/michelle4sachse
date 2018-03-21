@@ -5,64 +5,64 @@
 			<div class="col-md-3 widget">
 				<h3 class="widget-title">Contact</h3>
 				<div class="widget-body">
-					<p>{{ .Site.Params.phone }}<br>
-						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>
+					<p>{{ .Site.Params.phone }}
 						<br>
-						{{ .Site.Params.address }}
+						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+						<br>
+						<br> {{ .Site.Params.address }}
 					</p>
 				</div>
 			</div>
-			{{ end }}
-
-			{{ if .Site.Params.footerEnableFollowme }}
+			{{ end }} {{ if .Site.Params.footerEnableFollowme }}
 			<div class="col-md-3 widget">
 				<h3 class="widget-title">Follow me</h3>
 				<div class="widget-body">
 					<p class="follow-me-icons">
-                        {{ range .Site.Params.social }}
-                            {{ if .footer }}
-                                <a href="{{ .url }}" target="_blank"><i class="fab {{ .icon }}"></i></a>
-                            {{ end }}
-                        {{ end }}
+						{{ range .Site.Params.social }} {{ if .footer }}
+						<a href="{{ .url }}" target="_blank">
+							<i class="fab {{ .icon }}"></i>
+						</a>
+						{{ end }} {{ end }}
 					</p>
 				</div>
 			</div>
-			{{ end }}
-
-			{{ if .Site.Params.footerEnableTextWidget }}
+			{{ end }} {{ if .Site.Params.footerEnableTextWidget }}
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">Text widget</h3>
+				<h3 class="widget-title">Disclaimer</h3>
 				<div class="widget-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
+					<p>This site has been endorsed by Michelle Howarth.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat
+						eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
 				</div>
 			</div>
-			{{ end }}
-
-			{{ if .Site.Params.footerEnableFormWidget }}
+			{{ end }} {{ if .Site.Params.footerEnableFormWidget }}
 			<div class="col-md-3 widget">
 				<h3 class="widget-title">Form widget</h3>
 				<div class="widget-body">
-					<p>{{ .Site.Params.phone }}<br>
-						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>
+					<p>{{ .Site.Params.phone }}
 						<br>
-                        {{ .Site.Params.address }}
+						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+						<br>
+						<br> {{ .Site.Params.address }}
 					</p>
 				</div>
 			</div>
 			{{ end }}
 
-		</div> <!-- /row of widgets -->
+		</div>
+		<!-- /row of widgets -->
 	</div>
 </footer>
 
 
 
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/template.js"></script>
 <script id="dsq-count-scr" src="//{{ .Site.Params.disqus.site }}/count.js" async></script>
 {{ partial "analyticstracking.html" . }}
 </body>
+
 </html>
