@@ -410,6 +410,9 @@ img {
   justify-content: center;
   height:200pt;
 }
+.carousel-indicators{
+  bottom:0;
+}
 #issues-carousel .item .carousel-body{
   flex:1;
 }
