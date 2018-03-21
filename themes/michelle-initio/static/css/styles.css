@@ -389,6 +389,22 @@ img {
   padding: 12px 35px;
   text-shadow: 0 1px 0px #780d33;
 }
+
+.btn-rounded {
+  border-radius: 1em;
+}
+.col-no-gutter {
+  padding: 0;
+}
+#issues-carousel {
+  height:200pt;
+}
+.btn-primary-outline {
+  color:white;
+  background-color: rgba(128, 41, 143, 0.5);
+  border-color: rgb(128,41,143);
+  border: 1px solid rgb(128,41,143);
+}
 .btn-primary {
   color: #fff;
   background-color: #bd1550;
