@@ -398,6 +398,20 @@ img {
 }
 #issues-carousel {
   height:200pt;
+  background: #333;
+}
+.carousel-body{
+  font-size: 2em;
+  color:white;
+}
+#issues-carousel .carousel-inner{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:200pt;
+}
+#issues-carousel .item .carousel-body{
+  flex:1;
 }
 .btn-primary-outline {
   color:white;
