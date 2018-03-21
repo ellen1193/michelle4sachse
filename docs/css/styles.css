@@ -389,6 +389,39 @@ img {
   padding: 12px 35px;
   text-shadow: 0 1px 0px #780d33;
 }
+
+.btn-rounded {
+  border-radius: 1em;
+}
+.col-no-gutter {
+  padding: 0;
+}
+#issues-carousel {
+  height:200pt;
+  background: #333;
+}
+.carousel-body{
+  font-size: 2em;
+  color:white;
+}
+#issues-carousel .carousel-inner{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:200pt;
+}
+.carousel-indicators{
+  bottom:0;
+}
+#issues-carousel .item .carousel-body{
+  flex:1;
+}
+.btn-primary-outline {
+  color:white;
+  background-color: rgba(128, 41, 143, 0.5);
+  border-color: rgb(128,41,143);
+  border: 1px solid rgb(128,41,143);
+}
 .btn-primary {
   color: #fff;
   background-color: #bd1550;
