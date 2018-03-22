@@ -24,7 +24,7 @@
 	
 	<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=123456789012345678901234&product=inline-share-buttons"></script>
 	
-	
+
 
 </head>
 
@@ -144,9 +144,8 @@
 			<div class="col-md-3 widget">
 				<h3 class="widget-title">Disclaimer</h3>
 				<div class="widget-body">
-					<p>This site has been endorsed by Michelle Howarth.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat
-						eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
+					<p>This site is a political advertisement paid for by the Michelle Howarth campaign.</p>
+					<p>Website design by Ellen Howarth, Built by Matthew Carlson and Github</p>
 				</div>
 			</div>
 			 
@@ -186,6 +185,20 @@
   ga('send', 'pageview');
 </script>
 
+<script>
+	$("*[progressive-image-url]").each(function(index,element){
+		console.log(element);
+		var img = new Image();
+
+        img.src = $(element).attr('progressive-image-url');
+        img.onload = function () {
+            $(element).html("");
+			console.log("Image Loaded:"+img.src);
+			$("#head").css("background-image","url("+img.src+")");
+			
+        };
+	});
+</script>
 </body>
 
 </html>

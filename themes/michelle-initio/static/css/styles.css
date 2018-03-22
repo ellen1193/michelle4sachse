@@ -12,6 +12,7 @@ body {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   color: #666666;
   padding: 0;
+  overflow-x:hidden;
 }
 .topspace {
   margin-top: 40px;
@@ -233,6 +234,9 @@ a:hover {
 **********************************************************************/
 #head {
   color: #7c7c7c;
+  background: #f4f4f4 top center;
+  background-position: top center;
+  background-size: cover;
   padding: 30px 0 35px 0;
   position: relative;
 }
@@ -244,7 +248,7 @@ a:hover {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background: #f4f4f4 url(/images/EMP_1793.jpg) center bottom;
+  
   background-size: cover;
   color: #7c7c7c;
 }
@@ -270,8 +274,13 @@ a:hover {
 }
 @media only screen and (max-width: 400px) {
   #head .title {
-    font-size: 55pt;
+    font-size: 50pt;
   }
+}
+
+.navbar-sticky.stick {
+  z-index: 5000;
+  opacity: 0.9;
 }
 
 #head .title-box {
@@ -288,7 +297,7 @@ a:hover {
 #head .prorities .icon {
   text-align: center;
 }
-#head .prorities .icon > * {
+#head .prorities .icon > svg {
   width: 50pt;
   height: 50pt;
   border-radius: 50pt;
@@ -324,8 +333,17 @@ a:hover {
   margin: 15px 0 0;
   color: #fff;
 }
-#head .prorities {
+#head .prorities .background{
   background: rgba(128, 41, 143, 0.75);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height:100%;
+  z-index:0;
+}
+#head .prorities{
 
   position: absolute;
   bottom: 0;
@@ -337,8 +355,7 @@ a:hover {
 #head .prorities:before {
   content: "";
   position: absolute;
-  background: #f4f4f4 url(/images/EMP_1793.jpg) bottom;
-
+  
   left: 0;
   bottom: 0;
   z-index: -1;
@@ -397,30 +414,30 @@ img {
   padding: 0;
 }
 #issues-carousel {
-  height:200pt;
+  height: 200pt;
   background: #333;
 }
-.carousel-body{
+.carousel-body {
   font-size: 2em;
-  color:white;
+  color: white;
 }
-#issues-carousel .carousel-inner{
-  display:flex;
+#issues-carousel .carousel-inner {
+  display: flex;
   align-items: center;
   justify-content: center;
-  height:200pt;
+  height: 200pt;
 }
-.carousel-indicators{
-  bottom:0;
+.carousel-indicators {
+  bottom: 0;
 }
-#issues-carousel .item .carousel-body{
-  flex:1;
+#issues-carousel .item .carousel-body {
+  flex: 1;
 }
 .btn-primary-outline {
-  color:white;
+  color: white;
   background-color: rgba(128, 41, 143, 0.5);
-  border-color: rgb(128,41,143);
-  border: 1px solid rgb(128,41,143);
+  border-color: rgb(128, 41, 143);
+  border: 1px solid rgb(128, 41, 143);
 }
 .btn-primary {
   color: #fff;
@@ -930,15 +947,23 @@ footer.entry-meta .meta-in {
 
 
 **********************************************************************/
-.st-custom-button[data-network] {
-  background-color: #fff;
-  display: inline-block;
-  padding: 0px 5px 20px 5px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #666666;
-  &:hover,
-  &:focus {
-    color: #004488;
-  }
+
+.header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  z-index: -5000;
+  background-
+  
+}
+.header-background svg{
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
 }
