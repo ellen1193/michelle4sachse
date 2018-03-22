@@ -41,10 +41,7 @@ publishDir = "docs"
     name = "get involved"
     url = "/involved/"
     weight = 5
-[[menu.main]]
-    name = "donate"
-    url = "/donate/"
-    weight = 7
+
 
 
 [params.disqus]

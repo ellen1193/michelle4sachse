@@ -983,3 +983,11 @@ footer.entry-meta .meta-in {
   color:white;
   text-shadow: 0 2px 1px #333;
 }
+
+.btn-donate {
+  color:black;
+  background-color: rgb(255,196,57);
+  border-color: rgb(217,166,48);
+  border-bottom: 1px solid;
+  border-top:1px solid rgb(255,220,138);
+}
