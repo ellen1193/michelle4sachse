@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 
-	<title>Blog</title>
+	<title>Blogs</title>
 
 	<link rel="shortcut icon" href="http://michelle4sachse.com/images/favicon.ico">
 
@@ -93,46 +93,36 @@
 
 	</header>
 
-<main id="main" style="background:#ddd">
+<main id="main">
 
-	<div class="container" style="background:#fff;min-height:300pt;">
-
-		
+	<div class="container">
 		<div class="row topspace">
 			<div class="col-sm-8 col-sm-offset-2">
 
- 				<article class="post">
+                
+				<article class="post">
 					<header class="entry-header">
- 						<h1 class="entry-title"><a href="http://michelle4sachse.com/blog/" rel="bookmark">Blog</a></h1>
+						<div class="entry-meta">
+							<span class="posted-on"><time class="entry-date published" date="2018-02-26 22:54:53 -0800 PST">February 26, 2018</time></span>
+						</div>
+						<h1 class="entry-title"><a href="http://michelle4sachse.com/blog/180226/" rel="bookmark">180226</a></h1>
 					</header>
 					<div class="entry-content">
 						
 					</div>
 				</article>
+                
 
 			</div>
-		</div> 
-		
+		</div>
 
-        <div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
+		<center class="">
+			<ul class="pagination">
+                
 
-				<div id="share">
-                    
-				</div>
-			</div>
-		</div> 
-		<div class="clearfix"></div>
+			</ul>
+		</center>
 
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-
-				<div id="comments">
-                    
-				</div>
-			</div>
-		</div> 
-		<div class="clearfix"></div>
 
 	</div>	
 
@@ -175,7 +165,7 @@
 				<h3 class="widget-title">Disclaimer</h3>
 				<div class="widget-body">
 					<p>This site is a political advertisement paid for by the Michelle Howarth campaign.</p>
-					<p>Website design by Ellen Howarth, Built by Matthew Carlson and Github</p>
+					<p>Website design by Ellen Howarth, Built by Matthew Carlson, and Hosted on Github</p>
 				</div>
 			</div>
 			 
@@ -210,7 +200,7 @@
 
         img.src = $(element).attr('progressive-image-url');
         img.onload = function () {
-            $(element).html("");
+            $(element).fadeOut();
 			console.log("Image Loaded:"+img.src);
 			$("#head").css("background-image","url("+img.src+")");
 			

@@ -166,7 +166,7 @@
 				<h3 class="widget-title">Disclaimer</h3>
 				<div class="widget-body">
 					<p>This site is a political advertisement paid for by the Michelle Howarth campaign.</p>
-					<p>Website design by Ellen Howarth, Built by Matthew Carlson and Github</p>
+					<p>Website design by Ellen Howarth, Built by Matthew Carlson, and Hosted on Github</p>
 				</div>
 			</div>
 			 
@@ -201,7 +201,7 @@
 
         img.src = $(element).attr('progressive-image-url');
         img.onload = function () {
-            $(element).html("");
+            $(element).fadeOut();
 			console.log("Image Loaded:"+img.src);
 			$("#head").css("background-image","url("+img.src+")");
 			
