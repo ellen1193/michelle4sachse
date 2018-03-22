@@ -421,16 +421,19 @@ img {
   font-size: 2em;
   color: white;
 }
-#issues-carousel .carousel-inner {
+#issues-carousel .item {
+  height: 200pt;
+}
+#issues-carousel .item .carousel-body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200pt;
+  height:100%;  
 }
 .carousel-indicators {
   bottom: 0;
 }
-#issues-carousel .item .carousel-body {
+#issues-carousel .item .carousel-body .content {
   flex: 1;
 }
 .btn-primary-outline {
@@ -957,7 +960,6 @@ footer.entry-meta .meta-in {
   height: 100%;
   bottom: 0;
   z-index: -5000;
-  background-
   
 }
 .header-background svg{
@@ -966,4 +968,14 @@ footer.entry-meta .meta-in {
   -moz-filter: blur(2px);
   -o-filter: blur(2px);
   -ms-filter: blur(2px);
+}
+
+#mce-responses{
+  color:white;
+  font-weight: bold;
+  font-size:14pt;
+}
+.btn-primary-outline:hover{
+  color:white;
+  text-shadow: 0 2px 1px #333;
 }

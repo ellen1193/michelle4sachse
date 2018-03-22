@@ -295,54 +295,33 @@
 									<input type="number" class="form-control" value="" name="ZIP" id="mce-ZIP" style="border-top-left-radius: 0;border-bottom-left-radius:0"
 									    placeholder="Zip Code" />
 								</div>
-								<hr class="hidden-xs" />
-								<button class="btn col-md-12 col-xs-12 btn-primary-outline btn-rounded" name="subscribe" id="mc-embedded-subscribe">Get Updates</button>
 								<div id="mce-responses" class="clear">
-									<div class="response" id="mce-error-response" style="display:none"></div>
-									<div class="response" id="mce-success-response" style="display:none"></div>
-								</div>
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>
+								<hr class="hidden-xs" />
+								<button class="btn col-md-12 col-xs-12 btn-primary-outline btn-rounded" name="subscribe" id="mc-embedded-subscribe" onclick="return Subscribe()">Get Updates</button>
+								
 								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 								<div style="position: absolute; left: -5000px;" aria-hidden="true">
 									<input type="text" name="b_a4361a523e85885e38df9a713_22e4bbfb91" tabindex="-1" value="">
 								</div>
 							</form>
 						</div>
-						<!-- Add the extra clearfix for only the required viewport -->
-						<!--
-							<!-- Begin MailChimp Signup Form -->
-
-						<!--div id="mc_embed_signup">
-							<form action="https://michelle4sachse.us12.list-manage.com/subscribe/post?u=a4361a523e85885e38df9a713&amp;id=22e4bbfb91"
-							    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-								<div id="mc_embed_signup_scroll">
-									<h2>Subscribe to our mailing list</h2>
-									<div class="indicates-required">
-										<span class="asterisk">*</span> indicates required</div>
-									<div class="mc-field-group">
-										<label for="mce-EMAIL">Email Address
-											<span class="asterisk">*</span>
-										</label>
-										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-									</div>
-									<div class="mc-field-group">
-										<label for="mce-FNAME">First Name </label>
-										<input type="numnber" value="" name="ZIP" class="" id="mce-ZIP">
-									</div>
-
-									<div id="mce-responses" class="clear">
-										<div class="response" id="mce-error-response" style="display:none"></div>
-										<div class="response" id="mce-success-response" style="display:none"></div>
-									</div>
-									<div style="position: absolute; left: -5000px;" aria-hidden="true">
-										<input type="text" name="b_a4361a523e85885e38df9a713_22e4bbfb91" tabindex="-1" value="">
-									</div>
-									<div class="clear">
-										<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success">
-									</div>
-								</div>
-							</form>
-						</div>-->
 						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+						<script>
+							//called by the subscribe button
+							function Subscribe(){
+								if (screen.width > 500){
+									return true;
+								}
+								else {
+									console.log("We need to pop up a modal");
+									return false;
+								}
+
+							}
+						</script>
 
 
 					</div>
@@ -380,7 +359,7 @@
 					</div>
 					<div class="icon col-md-2 col-sm-2 col-xs-4">
 						<i class="fa fa-trophy fa-fw"></i>
-						<br/>Champion
+						<br/>Community Champion
 					</div>
 				</div>
 			</div>

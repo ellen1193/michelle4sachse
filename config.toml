@@ -10,9 +10,7 @@ publishDir = "docs"
     name = "Michelle Howarth"
     description = "A mystery person"
     email = "michelle4sachse@gmail.com"
-    phone = "+234 23 9873237"
     slogan = "A New Voice for Sachse"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2018
     background = ""
     favicon = "images/favicon.ico"
@@ -28,7 +26,7 @@ publishDir = "docs"
     footerEnableContact = true
     footerEnableFollowme = true
     footerEnableTextWidget = true
-    footerEnableFormWidget = true
+    footerEnableFormWidget = false
 
 [[menu.main]]
     name = "home"

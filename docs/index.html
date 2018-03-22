@@ -37,7 +37,8 @@
     <div class="container-fluid">
 
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="true">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -46,8 +47,8 @@
             <a class="navbar-brand" href="#">Michelle</a>
         </div>
 
-        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">            
-            <ul class="nav navbar-nav">
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
                 
                 <li>
                     <a href="/">home</a>
@@ -76,6 +77,21 @@
 
                 
 
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                 
+                <li>
+                    <a href="https://www.facebook.com/michelle4sachse" target="_blank">
+                        <i class="fab fa-facebook-square fa-lg fa-fw"></i>
+                    </a>
+                </li>
+                  
+                <li>
+                    <a href="https://www.instagram.com/michelle4sachse" target="_blank">
+                        <i class="fab fa-instagram fa-lg fa-fw"></i>
+                    </a>
+                </li>
+                           
             </ul>
 
         </div>
@@ -342,23 +358,33 @@
 									<input type="number" class="form-control" value="" name="ZIP" id="mce-ZIP" style="border-top-left-radius: 0;border-bottom-left-radius:0"
 									    placeholder="Zip Code" />
 								</div>
-								<hr class="hidden-xs" />
-								<button class="btn col-md-12 col-xs-12 btn-primary-outline btn-rounded" name="subscribe" id="mc-embedded-subscribe">Get Updates</button>
 								<div id="mce-responses" class="clear">
-									<div class="response" id="mce-error-response" style="display:none"></div>
-									<div class="response" id="mce-success-response" style="display:none"></div>
-								</div>
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>
+								<hr class="hidden-xs" />
+								<button class="btn col-md-12 col-xs-12 btn-primary-outline btn-rounded" name="subscribe" id="mc-embedded-subscribe" onclick="return Subscribe()">Get Updates</button>
+								
 								
 								<div style="position: absolute; left: -5000px;" aria-hidden="true">
 									<input type="text" name="b_a4361a523e85885e38df9a713_22e4bbfb91" tabindex="-1" value="">
 								</div>
 							</form>
 						</div>
-						
-						
-
-						
 						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+						<script>
+							
+							function Subscribe(){
+								if (screen.width > 500){
+									return true;
+								}
+								else {
+									console.log("We need to pop up a modal");
+									return false;
+								}
+
+							}
+						</script>
 
 
 					</div>
@@ -396,7 +422,7 @@
 					</div>
 					<div class="icon col-md-2 col-sm-2 col-xs-4">
 						<i class="fa fa-trophy fa-fw"></i>
-						<br/>Champion
+						<br/>Community Champion
 					</div>
 				</div>
 			</div>
@@ -418,22 +444,26 @@
 		
 		<div class="carousel-inner">
 			<div class="item active">
-				<div class="carousel-body container">"We must diversify the city’s tax base through quality, well planned, commercial development to reduce the tax burden
-					on Sachse families."</div>
-			</div>
-			<div class="item">
 				<div class="carousel-body container">
-					"I will work to improve the storm drainage issues in the Sachse and ensure that the new storm water utility fee will be used to improve the storm water flooding that occurs so frequently in Sachse."
+					<div class="content">"We must diversify the city’s tax base through quality, well planned, commercial development to reduce the tax burden
+						on Sachse families."</div>
 				</div>
 			</div>
 			<div class="item">
 				<div class="carousel-body container">
-					"I will work to develop walking and biking trails within the city and connect them to those in surrounding communities."
+					"I will work to improve the storm drainage issues in the Sachse and ensure that the new storm water utility fee will be used
+					to improve the storm water flooding that occurs so frequently in Sachse."
 				</div>
 			</div>
 			<div class="item">
 				<div class="carousel-body container">
-					"If property appraisals in the area are rapidly increasing, shouldn't property tax rates be decreasing? I will work to reduce city residential property tax rates."
+					<div class="content">"I will work to develop walking and biking trails within the city and connect them to those in surrounding communities."</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="carousel-body container">
+					"If property appraisals in the area are rapidly increasing, shouldn't property tax rates be decreasing? I will work to reduce
+					city residential property tax rates."
 				</div>
 			</div>
 		</div>
@@ -472,19 +502,19 @@
 	<div class="container">
 		<div class="row">
 			
-			<div class="col-md-3 widget">
+			<div class="col-md-4 widget">
 				<h3 class="widget-title">Contact</h3>
 				<div class="widget-body">
-					<p>&#43;234 23 9873237
+					<p>
 						<br>
 						<a href="mailto:michelle4sachse@gmail.com">michelle4sachse@gmail.com</a>
 						<br>
-						<br> 234 Hidden Pond Road, Ashland City, TN 37015
+						<br> 
 					</p>
 				</div>
 			</div>
 			 
-			<div class="col-md-3 widget">
+			<div class="col-md-4 widget">
 				<h3 class="widget-title">Follow me</h3>
 				<div class="widget-body">
 					<p class="follow-me-icons">
@@ -501,7 +531,7 @@
 				</div>
 			</div>
 			 
-			<div class="col-md-3 widget">
+			<div class="col-md-4 widget">
 				<h3 class="widget-title">Disclaimer</h3>
 				<div class="widget-body">
 					<p>This site is a political advertisement paid for by the Michelle Howarth campaign.</p>
@@ -509,18 +539,6 @@
 				</div>
 			</div>
 			 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Get in touch</h3>
-				<div class="widget-body">
-					<p>&#43;234 23 9873237
-						<br>
-						<a href="mailto:michelle4sachse@gmail.com">michelle4sachse@gmail.com</a>
-						<br>
-						<br> 234 Hidden Pond Road, Ashland City, TN 37015
-					</p>
-				</div>
-			</div>
-			
 
 		</div>
 		
