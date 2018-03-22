@@ -296,12 +296,12 @@
 									    placeholder="Zip Code" />
 								</div>
 								<div id="mce-responses" class="clear">
-										<div class="response" id="mce-error-response" style="display:none"></div>
-										<div class="response" id="mce-success-response" style="display:none"></div>
-									</div>
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>
 								<hr class="hidden-xs" />
 								<button class="btn col-md-12 col-xs-12 btn-primary-outline btn-rounded" name="subscribe" id="mc-embedded-subscribe" onclick="return Subscribe()">Get Updates</button>
-								
+
 								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 								<div style="position: absolute; left: -5000px;" aria-hidden="true">
 									<input type="text" name="b_a4361a523e85885e38df9a713_22e4bbfb91" tabindex="-1" value="">
@@ -311,11 +311,10 @@
 						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 						<script>
 							//called by the subscribe button
-							function Subscribe(){
-								if (screen.width > 500){
+							function Subscribe() {
+								if (screen.width > 500) {
 									return true;
-								}
-								else {
+								} else {
 									console.log("We need to pop up a modal");
 									return false;
 								}
@@ -337,29 +336,29 @@
 				<div class="background" /> </div>
 			<div class="container">
 				<div class="row">
-					<div class="icon col-md-2 col-sm-2 col-xs-4">
+					<div class="icon col-md-2 col-sm-2 col-xs-4" data-target="#issues-carousel" data-slide-to="0">
 						<i class="fa fa-balance-scale fa-fw"></i>
-						<br/>Balancing the budget
+						<br/>Balanced Budget
 					</div>
-					<div class="icon col-md-2 col-sm-2 col-xs-4">
+					<div class="icon col-md-2 col-sm-2 col-xs-4" data-target="#issues-carousel" data-slide-to="4">
 						<i class="fa fa-eye fa-fw"></i>
 						<br/>Transparency
 					</div>
-					<div class="icon col-md-2 col-sm-2 col-xs-4">
+					<div class="icon col-md-2 col-sm-2 col-xs-4" data-target="#issues-carousel" data-slide-to="5">
 						<i class="far fa-money-bill-alt fa-fw"></i>
 						<br/>Economic Growth
 					</div>
-					<div class="icon col-md-2 col-sm-2 col-xs-4">
+					<div class="icon col-md-2 col-sm-2 col-xs-4" data-target="#issues-carousel" data-slide-to="2">
 						<i class="fa fa-road fa-fw"></i>
 						<br/>Infrastructure
 					</div>
-					<div class="icon col-md-2 col-sm-2 col-xs-4">
+					<div class="icon col-md-2 col-sm-2 col-xs-4" data-target="#issues-carousel" data-slide-to="3">
 						<i class="fa fa-home fa-fw"></i>
-						<br/>Property Tax Relief
+						<br/>Tax Relief
 					</div>
-					<div class="icon col-md-2 col-sm-2 col-xs-4">
-						<i class="fa fa-trophy fa-fw"></i>
-						<br/>Community Champion
+					<div class="icon col-md-2 col-sm-2 col-xs-4" data-target="#issues-carousel" data-slide-to="6">
+						<i class="fas fa-microphone fa-fw"></i>
+						<br/>Voice for Sachse
 					</div>
 				</div>
 			</div>
