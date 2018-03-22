@@ -32,10 +32,6 @@ publishDir = "docs"
     name = "home"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "contact"
-    url = "/contact/"
-    weight = 3
 
 [[menu.main]]
     name = "About"
