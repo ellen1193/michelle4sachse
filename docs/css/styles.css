@@ -12,7 +12,7 @@ body {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   color: #666666;
   padding: 0;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 .topspace {
   margin-top: 40px;
@@ -247,7 +247,7 @@ a:hover {
   right: 0;
   bottom: 0;
   z-index: -1;
-  
+
   background-size: cover;
   color: #7c7c7c;
 }
@@ -272,7 +272,7 @@ a:hover {
   padding: 12px;
 }
 
-.follow-me-icons a:hover{
+.follow-me-icons a:hover {
   text-decoration: none;
 }
 @media only screen and (max-width: 400px) {
@@ -326,7 +326,7 @@ a:hover {
 }
 .home #head {
   padding: 90px 0;
-  z-index:-5;
+  z-index: -5;
 }
 /*.home #head .title {
   font-size: 49px;
@@ -338,18 +338,17 @@ a:hover {
   color: #fff;
 }
 
-#head .prorities .background{
+#head .prorities .background {
   background: rgba(128, 41, 143, 0.75);
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  width:100%;
-  height:100%;
-  z-index:0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
-#head .prorities{
-
+#head .prorities {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -360,7 +359,7 @@ a:hover {
 #head .prorities:before {
   content: "";
   position: absolute;
-  
+
   left: 0;
   bottom: 0;
   z-index: -1;
@@ -433,7 +432,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:100%;  
+  height: 100%;
 }
 .carousel-indicators {
   bottom: 0;
@@ -779,6 +778,7 @@ footer.entry-meta {
   font-size: 12px;
   font-size: 0.75rem;
 }
+
 footer.entry-meta a {
   color: #333333;
 }
@@ -965,9 +965,8 @@ footer.entry-meta .meta-in {
   height: 100%;
   bottom: 0;
   z-index: -5000;
-  
 }
-.header-background svg{
+.header-background svg {
   filter: blur(2px);
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
@@ -975,50 +974,49 @@ footer.entry-meta .meta-in {
   -ms-filter: blur(2px);
 }
 
-#mce-responses{
-  color:white;
+#mce-responses {
+  color: white;
   font-weight: bold;
-  font-size:14pt;
+  font-size: 14pt;
 }
-.btn-primary-outline:hover{
-  color:white;
+.btn-primary-outline:hover {
+  color: white;
   text-shadow: 0 2px 1px #333;
 }
 
 .btn-donate {
-  color:black;
-  background-color: rgb(255,196,57);
-  border-color: rgb(217,166,48);
+  color: black;
+  background-color: rgb(255, 196, 57);
+  border-color: rgb(217, 166, 48);
   border-bottom: 1px solid;
-  border-top:1px solid rgb(255,220,138);
-  padding-top:2pt;
-  padding-bottom:2pt;
-  margin-top:-4pt;
-  margin-bottom:-4pt;
+  border-top: 1px solid rgb(255, 220, 138);
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+  margin-top: -4pt;
+  margin-bottom: -4pt;
 }
 
-.navbar-brand{
-  
-  padding-top:10pt;
-  padding-bottom:0pt;
-  
-  padding-left:20pt;
-  padding:0;
-  padding-right:20pt;
-  
+.navbar-brand {
+  padding-top: 10pt;
+  padding-bottom: 0pt;
+
+  padding-left: 20pt;
+  padding: 0;
+  padding-right: 20pt;
 }
 
 .navbar-nav li.item {
-  padding-bottom:0pt;
-  
+  padding-bottom: 0pt;
 }
-.navbar-nav li.item:hover a{
-  padding-bottom:17px;
-}
-
-.navbar-nav li.item:hover{
-  
-  border-bottom:3pt solid rgba(128, 41, 143, 0.5);
-  border-bottom-style:groove;
+.navbar-nav li.item:hover a {
+  padding-bottom: 17px;
 }
 
+.navbar-nav li.item:hover {
+  border-bottom: 3pt solid rgba(128, 41, 143, 0.5);
+  border-bottom-style: groove;
+}
+
+body {
+  background-color: #232323;
+}
