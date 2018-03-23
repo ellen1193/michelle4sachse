@@ -337,6 +337,7 @@ a:hover {
   margin: 15px 0 0;
   color: #fff;
 }
+
 #head .prorities .background{
   background: rgba(128, 41, 143, 0.75);
   position: absolute;
@@ -990,4 +991,34 @@ footer.entry-meta .meta-in {
   border-color: rgb(217,166,48);
   border-bottom: 1px solid;
   border-top:1px solid rgb(255,220,138);
+  padding-top:2pt;
+  padding-bottom:2pt;
+  margin-top:-4pt;
+  margin-bottom:-4pt;
 }
+
+.navbar-brand{
+  
+  padding-top:10pt;
+  padding-bottom:0pt;
+  
+  padding-left:20pt;
+  padding:0;
+  padding-right:20pt;
+  
+}
+
+.navbar-nav li.item {
+  padding-bottom:0pt;
+  
+}
+.navbar-nav li.item:hover a{
+  padding-bottom:17px;
+}
+
+.navbar-nav li.item:hover{
+  
+  border-bottom:3pt solid rgba(128, 41, 143, 0.5);
+  border-bottom-style:groove;
+}
+
